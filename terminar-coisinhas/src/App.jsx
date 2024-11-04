@@ -5,6 +5,7 @@ import './App.css'
 import Albergue from './Pages/Albergue'
 import Altura from './Pages/Altura'
 import Crescimento from './Pages/Crescimento'
+import ContagemNumeros from './Pages/ContagemNumeros'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,8 @@ function App() {
       <Altura />
 
       <Crescimento/>
+
+      <ContagemNumeros />
     </>
   )
 }
